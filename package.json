@@ -1,0 +1,22 @@
+{
+    "name": "my-app",
+    "version": "1.0.0",
+    "description": "Example Node.js App",
+    "main": "app.js",
+    "scripts": {
+      "start": "node src/app.js",
+      "test": "jest src/tests/api.test.js src/tests/ui.test.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.17.1"
+    },
+    "devDependencies": {
+      "jest": "^27.0.4",
+      "puppeteer": "^13.1.0",
+      "supertest": "^6.1.6"
+    }
+  }
+  
